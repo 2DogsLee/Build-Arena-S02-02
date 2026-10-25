@@ -1,0 +1,461 @@
+[
+  {
+    "op": "start",
+    "params": {
+      "init_shift": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "init_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "note": "Root atop recovery stack: tanks below, payload above via decoupler."
+    },
+    "result": "Operation result:\n  Added Build ID 1: Starting Block.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 1\n  Note: v4: v3 + full 4-fin aero stabiliser set. The two retro boosters move from the upper tank's east/west top-edge points to the north/south points so the root block's four side faces are free for grid fins.\n\nAffected block:\n  Build ID 1: Starting Block\n    Attachment: root / no authored attachment\n    Position (build [East, North, Up]): [0.,0.,0.]\n    Facing (build compass): <North with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: The starting block\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [0.5,0. ,0. ], Facing towards <East with 0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5, 0. , 0. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [0. ,0. ,0.5], Facing towards <straight up>\n    Face f3: center (build [East, North, Up]): [ 0. , 0. ,-0.5], Facing towards <straight down>\n    Face f4: center (build [East, North, Up]): [0. ,0.5,0. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [ 0. ,-0.5, 0. ], Facing towards <South with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 1,
+      "face": "f3",
+      "new_block": "Fuel Barrel Big",
+      "note": "Upper tank B directly under root; lower tank A below it (adjacent tank faces share fuel)."
+    },
+    "result": "Operation result:\n  Added Build ID 2: Fuel Barrel Big.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 2\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 2: Fuel Barrel Big\n    Attachment: from Build ID 1, face f3 (Starting Block) at [ 0. , 0. ,-0.5]\n    Position (build [East, North, Up]): [ 0., 0.,-2.]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Upper tank B directly under root; lower tank A below it (adjacent tank faces share fuel).\n  Attachable Faces:\n    Face f1: center (build [East, North, Up]): [ 0.5, 0.5,-0.5], Facing towards <straight up>\n    Face f2: center (build [East, North, Up]): [-0.5, 0.5,-0.5], Facing towards <straight up>\n    Face f3: center (build [East, North, Up]): [-0.5,-0.5,-0.5], Facing towards <straight up>\n    Face f4: center (build [East, North, Up]): [ 0.5,-0.5,-0.5], Facing towards <straight up>\n    Face f5: center (build [East, North, Up]): [ 1. , 0. ,-0.5], Facing towards <straight up>\n    Face f6: center (build [East, North, Up]): [-1. , 0. ,-0.5], Facing towards <straight up>\n    Face f7: center (build [East, North, Up]): [ 0. ,-1. ,-0.5], Facing towards <straight up>\n    Face f8: center (build [East, North, Up]): [ 0. , 1. ,-0.5], Facing towards <straight up>\n    Face f9: center (build [East, North, Up]): [ 0. , 0. ,-3.5], Facing towards <straight down>\n    Face f10: center (build [East, North, Up]): [ 1.5, 0. ,-1. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f11: center (build [East, North, Up]): [ 1.5, 0. ,-2. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f12: center (build [East, North, Up]): [ 1.5, 0. ,-3. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f13: center (build [East, North, Up]): [-1.5, 0. ,-1. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f14: center (build [East, North, Up]): [-1.5, 0. ,-2. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f15: center (build [East, North, Up]): [-1.5, 0. ,-3. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f16: center (build [East, North, Up]): [ 0. , 1.5,-1. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f17: center (build [East, North, Up]): [ 0. , 1.5,-2. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f18: center (build [East, North, Up]): [ 0. , 1.5,-3. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f19: center (build [East, North, Up]): [ 0. ,-1.5,-1. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f20: center (build [East, North, Up]): [ 0. ,-1.5,-2. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f21: center (build [East, North, Up]): [ 0. ,-1.5,-3. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f22: center (build [East, North, Up]): [ 0.5,-0.5,-3.5], Facing towards <straight down>\n    Face f23: center (build [East, North, Up]): [-0.5,-0.5,-3.5], Facing towards <straight down>\n    Face f24: center (build [East, North, Up]): [-0.5, 0.5,-3.5], Facing towards <straight down>\n    Face f25: center (build [East, North, Up]): [ 0.5, 0.5,-3.5], Facing towards <straight down>\n    Face f26: center (build [East, North, Up]): [ 1. , 0. ,-3.5], Facing towards <straight down>\n    Face f27: center (build [East, North, Up]): [-1. , 0. ,-3.5], Facing towards <straight down>\n    Face f28: center (build [East, North, Up]): [ 0. ,-1. ,-3.5], Facing towards <straight down>\n    Face f29: center (build [East, North, Up]): [ 0. , 1. ,-3.5], Facing towards <straight down>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f9",
+      "new_block": "Fuel Barrel Big",
+      "note": "Lower tank A: engines and landing legs mount here."
+    },
+    "result": "Operation result:\n  Added Build ID 3: Fuel Barrel Big.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 3\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 3: Fuel Barrel Big\n    Attachment: from Build ID 2, face f9 (Fuel Barrel Big) at [ 0. , 0. ,-3.5]\n    Position (build [East, North, Up]): [ 0., 0.,-5.]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Lower tank A: engines and landing legs mount here.\n  Attachable Faces:\n    Face f1: center (build [East, North, Up]): [ 0.5, 0.5,-3.5], Facing towards <straight up>\n    Face f2: center (build [East, North, Up]): [-0.5, 0.5,-3.5], Facing towards <straight up>\n    Face f3: center (build [East, North, Up]): [-0.5,-0.5,-3.5], Facing towards <straight up>\n    Face f4: center (build [East, North, Up]): [ 0.5,-0.5,-3.5], Facing towards <straight up>\n    Face f5: center (build [East, North, Up]): [ 1. , 0. ,-3.5], Facing towards <straight up>\n    Face f6: center (build [East, North, Up]): [-1. , 0. ,-3.5], Facing towards <straight up>\n    Face f7: center (build [East, North, Up]): [ 0. ,-1. ,-3.5], Facing towards <straight up>\n    Face f8: center (build [East, North, Up]): [ 0. , 1. ,-3.5], Facing towards <straight up>\n    Face f9: center (build [East, North, Up]): [ 0. , 0. ,-6.5], Facing towards <straight down>\n    Face f10: center (build [East, North, Up]): [ 1.5, 0. ,-4. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f11: center (build [East, North, Up]): [ 1.5, 0. ,-5. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f12: center (build [East, North, Up]): [ 1.5, 0. ,-6. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f13: center (build [East, North, Up]): [-1.5, 0. ,-4. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f14: center (build [East, North, Up]): [-1.5, 0. ,-5. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f15: center (build [East, North, Up]): [-1.5, 0. ,-6. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f16: center (build [East, North, Up]): [ 0. , 1.5,-4. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f17: center (build [East, North, Up]): [ 0. , 1.5,-5. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f18: center (build [East, North, Up]): [ 0. , 1.5,-6. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f19: center (build [East, North, Up]): [ 0. ,-1.5,-4. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f20: center (build [East, North, Up]): [ 0. ,-1.5,-5. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f21: center (build [East, North, Up]): [ 0. ,-1.5,-6. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f22: center (build [East, North, Up]): [ 0.5,-0.5,-6.5], Facing towards <straight down>\n    Face f23: center (build [East, North, Up]): [-0.5,-0.5,-6.5], Facing towards <straight down>\n    Face f24: center (build [East, North, Up]): [-0.5, 0.5,-6.5], Facing towards <straight down>\n    Face f25: center (build [East, North, Up]): [ 0.5, 0.5,-6.5], Facing towards <straight down>\n    Face f26: center (build [East, North, Up]): [ 1. , 0. ,-6.5], Facing towards <straight down>\n    Face f27: center (build [East, North, Up]): [-1. , 0. ,-6.5], Facing towards <straight down>\n    Face f28: center (build [East, North, Up]): [ 0. ,-1. ,-6.5], Facing towards <straight down>\n    Face f29: center (build [East, North, Up]): [ 0. , 1. ,-6.5], Facing towards <straight down>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 3,
+      "face": "f22",
+      "new_block": "Booster",
+      "note": "Main engine 1/4, direct fuel tap from lower tank."
+    },
+    "result": "Operation result:\n  Added Build ID 4: Booster.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 4\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 4: Booster\n    Attachment: from Build ID 3, face f22 (Fuel Barrel Big) at [ 0.5,-0.5,-6.5]\n    Position (build [East, North, Up]): [ 0.5,-0.5,-7. ]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Main engine 1/4, direct fuel tap from lower tank.\n  Description (build):\n    Thrust is directed away from the mount face toward <straight down>.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 0.5, 0. ,-7. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [ 0.5,-1. ,-7. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 1. ,-0.5,-7. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [ 0. ,-0.5,-7. ], Facing towards <West with -0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 3,
+      "face": "f23",
+      "new_block": "Booster",
+      "note": "Main engine 2/4."
+    },
+    "result": "Operation result:\n  Added Build ID 5: Booster.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 5\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 5: Booster\n    Attachment: from Build ID 3, face f23 (Fuel Barrel Big) at [-0.5,-0.5,-6.5]\n    Position (build [East, North, Up]): [-0.5,-0.5,-7. ]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Main engine 2/4.\n  Description (build):\n    Thrust is directed away from the mount face toward <straight down>.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [-0.5, 0. ,-7. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5,-1. ,-7. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 0. ,-0.5,-7. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [-1. ,-0.5,-7. ], Facing towards <West with -0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 3,
+      "face": "f24",
+      "new_block": "Booster",
+      "note": "Main engine 3/4."
+    },
+    "result": "Operation result:\n  Added Build ID 6: Booster.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 6\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 6: Booster\n    Attachment: from Build ID 3, face f24 (Fuel Barrel Big) at [-0.5, 0.5,-6.5]\n    Position (build [East, North, Up]): [-0.5, 0.5,-7. ]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Main engine 3/4.\n  Description (build):\n    Thrust is directed away from the mount face toward <straight down>.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [-0.5, 1. ,-7. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5, 0. ,-7. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 0. , 0.5,-7. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [-1. , 0.5,-7. ], Facing towards <West with -0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 3,
+      "face": "f25",
+      "new_block": "Booster",
+      "note": "Main engine 4/4."
+    },
+    "result": "Operation result:\n  Added Build ID 7: Booster.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 7\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 7: Booster\n    Attachment: from Build ID 3, face f25 (Fuel Barrel Big) at [ 0.5, 0.5,-6.5]\n    Position (build [East, North, Up]): [ 0.5, 0.5,-7. ]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Main engine 4/4.\n  Description (build):\n    Thrust is directed away from the mount face toward <straight down>.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 0.5, 1. ,-7. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [ 0.5, 0. ,-7. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 1. , 0.5,-7. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [ 0. , 0.5,-7. ], Facing towards <West with -0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 3,
+      "face": "f12",
+      "new_block": "Wooden Pole",
+      "note": "Landing leg 1/4 east arm: zero-drag pole outboard, foot below."
+    },
+    "result": "Operation result:\n  Added Build ID 8: Wooden Pole.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 8\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 8: Wooden Pole\n    Attachment: from Build ID 3, face f12 (Fuel Barrel Big) at [ 1.5, 0. ,-6. ]\n    Position (build [East, North, Up]): [ 2.5, 0. ,-6. ]\n    Facing (build compass): <East with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Landing leg 1/4 east arm: zero-drag pole outboard, foot below.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 3. , 0. ,-5.5], Facing towards <straight up>\n    Face f1: center (build [East, North, Up]): [ 3. , 0. ,-6.5], Facing towards <straight down>\n    Face f2: center (build [East, North, Up]): [ 3. , 0.5,-6. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [ 3. ,-0.5,-6. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f4: center (build [East, North, Up]): [ 3.5, 0. ,-6. ], Facing towards <East with 0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [ 2. , 0. ,-5.5], Facing towards <straight up>\n    Face f6: center (build [East, North, Up]): [ 2. , 0. ,-6.5], Facing towards <straight down>\n    Face f7: center (build [East, North, Up]): [ 2. , 0.5,-6. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [ 2. ,-0.5,-6. ], Facing towards <South with -0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 8,
+      "face": "f1",
+      "new_block": "Double Wooden Block",
+      "note": "East landing foot: hangs 2 below leg arm, lowest contact 1 below engine bottoms."
+    },
+    "result": "Operation result:\n  Added Build ID 9: Double Wooden Block.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 9\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 9: Double Wooden Block\n    Attachment: from Build ID 8, face f1 (Wooden Pole) at [ 3. , 0. ,-6.5]\n    Position (build [East, North, Up]): [ 3. , 0. ,-7.5]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: East landing foot: hangs 2 below leg arm, lowest contact 1 below engine bottoms.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 3.5, 0. ,-7. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [ 2.5, 0. ,-7. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 3. , 0.5,-7. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [ 3. ,-0.5,-7. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [ 3.5, 0. ,-8. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [ 2.5, 0. ,-8. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [ 3. , 0.5,-8. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [ 3. ,-0.5,-8. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f9: center (build [East, North, Up]): [ 3. , 0. ,-8.5], Facing towards <straight down>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 3,
+      "face": "f15",
+      "new_block": "Wooden Pole",
+      "note": "Landing leg 2/4 west arm."
+    },
+    "result": "Operation result:\n  Added Build ID 10: Wooden Pole.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 10\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 10: Wooden Pole\n    Attachment: from Build ID 3, face f15 (Fuel Barrel Big) at [-1.5, 0. ,-6. ]\n    Position (build [East, North, Up]): [-2.5, 0. ,-6. ]\n    Facing (build compass): <West with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Landing leg 2/4 west arm.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [-3. , 0. ,-6.5], Facing towards <straight down>\n    Face f1: center (build [East, North, Up]): [-3. , 0. ,-5.5], Facing towards <straight up>\n    Face f2: center (build [East, North, Up]): [-3. , 0.5,-6. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [-3. ,-0.5,-6. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f4: center (build [East, North, Up]): [-3.5, 0. ,-6. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [-2. , 0. ,-6.5], Facing towards <straight down>\n    Face f6: center (build [East, North, Up]): [-2. , 0. ,-5.5], Facing towards <straight up>\n    Face f7: center (build [East, North, Up]): [-2. , 0.5,-6. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [-2. ,-0.5,-6. ], Facing towards <South with -0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 3,
+      "face": "f18",
+      "new_block": "Wooden Pole",
+      "note": "Landing leg 3/4 north arm."
+    },
+    "result": "Operation result:\n  Added Build ID 11: Wooden Pole.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 11\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 11: Wooden Pole\n    Attachment: from Build ID 3, face f18 (Fuel Barrel Big) at [ 0. , 1.5,-6. ]\n    Position (build [East, North, Up]): [ 0. , 2.5,-6. ]\n    Facing (build compass): <North with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Landing leg 3/4 north arm.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 0.5, 3. ,-6. ], Facing towards <East with 0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5, 3. ,-6. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 0. , 3. ,-5.5], Facing towards <straight up>\n    Face f3: center (build [East, North, Up]): [ 0. , 3. ,-6.5], Facing towards <straight down>\n    Face f4: center (build [East, North, Up]): [ 0. , 3.5,-6. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [ 0.5, 2. ,-6. ], Facing towards <East with 0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-0.5, 2. ,-6. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [ 0. , 2. ,-5.5], Facing towards <straight up>\n    Face f8: center (build [East, North, Up]): [ 0. , 2. ,-6.5], Facing towards <straight down>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 3,
+      "face": "f21",
+      "new_block": "Wooden Pole",
+      "note": "Landing leg 4/4 south arm."
+    },
+    "result": "Operation result:\n  Added Build ID 12: Wooden Pole.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 12\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 12: Wooden Pole\n    Attachment: from Build ID 3, face f21 (Fuel Barrel Big) at [ 0. ,-1.5,-6. ]\n    Position (build [East, North, Up]): [ 0. ,-2.5,-6. ]\n    Facing (build compass): <South with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Landing leg 4/4 south arm.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 0.5,-3. ,-6. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5,-3. ,-6. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 0. ,-3. ,-6.5], Facing towards <straight down>\n    Face f3: center (build [East, North, Up]): [ 0. ,-3. ,-5.5], Facing towards <straight up>\n    Face f4: center (build [East, North, Up]): [ 0. ,-3.5,-6. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [ 0.5,-2. ,-6. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-0.5,-2. ,-6. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [ 0. ,-2. ,-6.5], Facing towards <straight down>\n    Face f8: center (build [East, North, Up]): [ 0. ,-2. ,-5.5], Facing towards <straight up>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 10,
+      "face": "f0",
+      "new_block": "Double Wooden Block",
+      "note": "West landing foot."
+    },
+    "result": "Operation result:\n  Added Build ID 13: Double Wooden Block.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 13\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 13: Double Wooden Block\n    Attachment: from Build ID 10, face f0 (Wooden Pole) at [-3. , 0. ,-6.5]\n    Position (build [East, North, Up]): [-3. , 0. ,-7.5]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: West landing foot.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [-2.5, 0. ,-7. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-3.5, 0. ,-7. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [-3. , 0.5,-7. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [-3. ,-0.5,-7. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [-2.5, 0. ,-8. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-3.5, 0. ,-8. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [-3. , 0.5,-8. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [-3. ,-0.5,-8. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f9: center (build [East, North, Up]): [-3. , 0. ,-8.5], Facing towards <straight down>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 11,
+      "face": "f3",
+      "new_block": "Double Wooden Block",
+      "note": "North landing foot."
+    },
+    "result": "Operation result:\n  Added Build ID 14: Double Wooden Block.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 14\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 14: Double Wooden Block\n    Attachment: from Build ID 11, face f3 (Wooden Pole) at [ 0. , 3. ,-6.5]\n    Position (build [East, North, Up]): [ 0. , 3. ,-7.5]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: North landing foot.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 0.5, 3. ,-7. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5, 3. ,-7. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 0. , 3.5,-7. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [ 0. , 2.5,-7. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [ 0.5, 3. ,-8. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-0.5, 3. ,-8. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [ 0. , 3.5,-8. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [ 0. , 2.5,-8. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f9: center (build [East, North, Up]): [ 0. , 3. ,-8.5], Facing towards <straight down>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 12,
+      "face": "f2",
+      "new_block": "Double Wooden Block",
+      "note": "South landing foot."
+    },
+    "result": "Operation result:\n  Added Build ID 15: Double Wooden Block.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 15\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 15: Double Wooden Block\n    Attachment: from Build ID 12, face f2 (Wooden Pole) at [ 0. ,-3. ,-6.5]\n    Position (build [East, North, Up]): [ 0. ,-3. ,-7.5]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: South landing foot.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 0.5,-3. ,-7. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5,-3. ,-7. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 0. ,-2.5,-7. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [ 0. ,-3.5,-7. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [ 0.5,-3. ,-8. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-0.5,-3. ,-8. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [ 0. ,-2.5,-8. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [ 0. ,-3.5,-8. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f9: center (build [East, North, Up]): [ 0. ,-3. ,-8.5], Facing towards <straight down>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f11",
+      "new_block": "Reaction Steering Block",
+      "note": "Reaction wheel +X (East)."
+    },
+    "result": "Operation result:\n  Added Build ID 16: Reaction Steering Block.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 16\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 16: Reaction Steering Block\n    Attachment: from Build ID 2, face f11 (Fuel Barrel Big) at [ 1.5, 0. ,-2. ]\n    Position (build [East, North, Up]): [ 1.75, 0.  ,-2.  ]\n    Facing (build compass): <East with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Reaction wheel +X (East).\n  Description (build):\n    Reaction-wheel control axis aligns with <East with -0.0\u00b0 pitch>. Positive spin: Rolling towards <North with 0.0\u00b0 pitch> with 0\u00b0 camber Opposite spin: Rolling towards <South with -0.0\u00b0 pitch> with -0\u00b0 camber"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f14",
+      "new_block": "Reaction Steering Block",
+      "note": "Reaction wheel -X (West)."
+    },
+    "result": "Operation result:\n  Added Build ID 17: Reaction Steering Block.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 17\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 17: Reaction Steering Block\n    Attachment: from Build ID 2, face f14 (Fuel Barrel Big) at [-1.5, 0. ,-2. ]\n    Position (build [East, North, Up]): [-1.75, 0.  ,-2.  ]\n    Facing (build compass): <West with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Reaction wheel -X (West).\n  Description (build):\n    Reaction-wheel control axis aligns with <West with -0.0\u00b0 pitch>. Positive spin: Rolling towards <South with 0.0\u00b0 pitch> with 0\u00b0 camber Opposite spin: Rolling towards <North with 0.0\u00b0 pitch> with -0\u00b0 camber"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f17",
+      "new_block": "Reaction Steering Block",
+      "note": "Reaction wheel +Y (North)."
+    },
+    "result": "Operation result:\n  Added Build ID 18: Reaction Steering Block.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 18\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 18: Reaction Steering Block\n    Attachment: from Build ID 2, face f17 (Fuel Barrel Big) at [ 0. , 1.5,-2. ]\n    Position (build [East, North, Up]): [ 0.  , 1.75,-2.  ]\n    Facing (build compass): <North with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Reaction wheel +Y (North).\n  Description (build):\n    Reaction-wheel control axis aligns with <North with 0.0\u00b0 pitch>. Positive spin: Rolling towards <West with 0.0\u00b0 pitch> with 0\u00b0 camber Opposite spin: Rolling towards <East with 0.0\u00b0 pitch> with 0\u00b0 camber"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f20",
+      "new_block": "Reaction Steering Block",
+      "note": "Reaction wheel -Y (South)."
+    },
+    "result": "Operation result:\n  Added Build ID 19: Reaction Steering Block.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 19\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 19: Reaction Steering Block\n    Attachment: from Build ID 2, face f20 (Fuel Barrel Big) at [ 0. ,-1.5,-2. ]\n    Position (build [East, North, Up]): [ 0.  ,-1.75,-2.  ]\n    Facing (build compass): <South with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Reaction wheel -Y (South).\n  Description (build):\n    Reaction-wheel control axis aligns with <South with -0.0\u00b0 pitch>. Positive spin: Rolling towards <East with 0.0\u00b0 pitch> with 0\u00b0 camber Opposite spin: Rolling towards <West with -0.0\u00b0 pitch> with -0\u00b0 camber"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 1,
+      "face": "f2",
+      "new_block": "Decoupler",
+      "note": "Payload separation device on recovery stack axis; payload above."
+    },
+    "result": "Operation result:\n  Added Build ID 20: Decoupler.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 20\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 20: Decoupler\n    Attachment: from Build ID 1, face f2 (Starting Block) at [0. ,0. ,0.5]\n    Position (build [East, North, Up]): [0.,0.,1.]\n    Facing (build compass): <straight up>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Payload separation device on recovery stack axis; payload above.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [0. ,0. ,1.5], Facing towards <straight up>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 20,
+      "face": "f0",
+      "new_block": "Wooden Pole",
+      "note": "Payload core pole (zero-drag test block); further payload poles attach to its sides."
+    },
+    "result": "Operation result:\n  Added Build ID 21: Wooden Pole.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 21\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 21: Wooden Pole\n    Attachment: from Build ID 20, face f0 (Decoupler) at [0. ,0. ,1.5]\n    Position (build [East, North, Up]): [ 0. ,-0. , 2.5]\n    Facing (build compass): <straight up>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Payload core pole (zero-drag test block); further payload poles attach to its sides.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 0.5,-0. , 3. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5,-0. , 3. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 0. ,-0.5, 3. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [0. ,0.5,3. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f4: center (build [East, North, Up]): [ 0. ,-0. , 3.5], Facing towards <straight up>\n    Face f5: center (build [East, North, Up]): [ 0.5,-0. , 2. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-0.5,-0. , 2. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [-0. ,-0.5, 2. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [0. ,0.5,2. ], Facing towards <North with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 21,
+      "face": "f5",
+      "new_block": "Wooden Pole",
+      "note": "Payload arm east (zero-drag pole)."
+    },
+    "result": "Operation result:\n  Added Build ID 22: Wooden Pole.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 22\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 22: Wooden Pole\n    Attachment: from Build ID 21, face f5 (Wooden Pole) at [ 0.5,-0. , 2. ]\n    Position (build [East, North, Up]): [ 1.5,-0. , 2. ]\n    Facing (build compass): <East with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Payload arm east (zero-drag pole).\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 2. ,-0. , 1.5], Facing towards <straight down>\n    Face f1: center (build [East, North, Up]): [ 2. ,-0. , 2.5], Facing towards <straight up>\n    Face f2: center (build [East, North, Up]): [ 2. ,-0.5, 2. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [2. ,0.5,2. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f4: center (build [East, North, Up]): [ 2.5,-0. , 2. ], Facing towards <East with 0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [ 1. ,-0. , 1.5], Facing towards <straight down>\n    Face f6: center (build [East, North, Up]): [ 1. ,-0. , 2.5], Facing towards <straight up>\n    Face f7: center (build [East, North, Up]): [ 1. ,-0.5, 2. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [1. ,0.5,2. ], Facing towards <North with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 21,
+      "face": "f6",
+      "new_block": "Wooden Pole",
+      "note": "Payload arm west."
+    },
+    "result": "Operation result:\n  Added Build ID 23: Wooden Pole.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 23\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 23: Wooden Pole\n    Attachment: from Build ID 21, face f6 (Wooden Pole) at [-0.5,-0. , 2. ]\n    Position (build [East, North, Up]): [-1.5,-0. , 2. ]\n    Facing (build compass): <West with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Payload arm west.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [-2. ,-0. , 2.5], Facing towards <straight up>\n    Face f1: center (build [East, North, Up]): [-2. , 0. , 1.5], Facing towards <straight down>\n    Face f2: center (build [East, North, Up]): [-2. ,-0.5, 2. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [-2. , 0.5, 2. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f4: center (build [East, North, Up]): [-2.5,-0. , 2. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [-1. ,-0. , 2.5], Facing towards <straight up>\n    Face f6: center (build [East, North, Up]): [-1. , 0. , 1.5], Facing towards <straight down>\n    Face f7: center (build [East, North, Up]): [-1. ,-0.5, 2. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [-1. , 0.5, 2. ], Facing towards <North with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 21,
+      "face": "f8",
+      "new_block": "Wooden Pole",
+      "note": "Payload arm north."
+    },
+    "result": "Operation result:\n  Added Build ID 24: Wooden Pole.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 24\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 24: Wooden Pole\n    Attachment: from Build ID 21, face f8 (Wooden Pole) at [0. ,0.5,2. ]\n    Position (build [East, North, Up]): [0. ,1.5,2. ]\n    Facing (build compass): <North with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Payload arm north.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [0.5,2. ,2. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5, 2. , 2. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [0. ,2. ,2.5], Facing towards <straight up>\n    Face f3: center (build [East, North, Up]): [0. ,2. ,1.5], Facing towards <straight down>\n    Face f4: center (build [East, North, Up]): [0. ,2.5,2. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [0.5,1. ,2. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-0.5, 1. , 2. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [0. ,1. ,2.5], Facing towards <straight up>\n    Face f8: center (build [East, North, Up]): [0. ,1. ,1.5], Facing towards <straight down>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 21,
+      "face": "f7",
+      "new_block": "Wooden Pole",
+      "note": "Payload arm south."
+    },
+    "result": "Operation result:\n  Added Build ID 25: Wooden Pole.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 25\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 25: Wooden Pole\n    Attachment: from Build ID 21, face f7 (Wooden Pole) at [-0. ,-0.5, 2. ]\n    Position (build [East, North, Up]): [-0. ,-1.5, 2. ]\n    Facing (build compass): <South with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Payload arm south.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 0.5,-2. , 2. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5,-2. , 2. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [-0. ,-2. , 1.5], Facing towards <straight down>\n    Face f3: center (build [East, North, Up]): [-0. ,-2. , 2.5], Facing towards <straight up>\n    Face f4: center (build [East, North, Up]): [-0. ,-2.5, 2. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [ 0.5,-1. , 2. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-0.5,-1. , 2. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [-0. ,-1. , 1.5], Facing towards <straight down>\n    Face f8: center (build [East, North, Up]): [-0. ,-1. , 2.5], Facing towards <straight up>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f5",
+      "new_block": "Booster",
+      "note": "Retro engine R1/2 on upper tank top-edge face: thrust force is -Y (retrograde when the nose points prograde), used to kill orbital velocity right after payload separation without a 180 degree flip. Direct fuel tap."
+    },
+    "result": "Operation result:\n  Added Build ID 26: Booster.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 26\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 26: Booster\n    Attachment: from Build ID 2, face f5 (Fuel Barrel Big) at [ 1. , 0. ,-0.5]\n    Position (build [East, North, Up]): [ 1.,-0., 0.]\n    Facing (build compass): <straight up>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Retro engine R1/2 on upper tank top-edge face: thrust force is -Y (retrograde when the nose points prograde), used to kill orbital velocity right after payload separation without a 180 degree flip. Direct fuel tap.\n  Description (build):\n    Thrust is directed away from the mount face toward <straight up>.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 1. ,-0.5,-0. ], Facing towards <South with 0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [1. ,0.5,0. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 1.5,-0. , 0. ], Facing towards <East with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [ 0.5,-0. , 0. ], Facing towards <West with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f6",
+      "new_block": "Booster",
+      "note": "Retro engine R2/2, opposite side of R1 for a balanced thrust line."
+    },
+    "result": "Operation result:\n  Added Build ID 27: Booster.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 27\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 27: Booster\n    Attachment: from Build ID 2, face f6 (Fuel Barrel Big) at [-1. , 0. ,-0.5]\n    Position (build [East, North, Up]): [-1.,-0., 0.]\n    Facing (build compass): <straight up>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Retro engine R2/2, opposite side of R1 for a balanced thrust line.\n  Description (build):\n    Thrust is directed away from the mount face toward <straight up>.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [-1. ,-0.5,-0. ], Facing towards <South with 0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-1. , 0.5, 0. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [-0.5,-0. , 0. ], Facing towards <East with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [-1.5,-0. , 0. ], Facing towards <West with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 3,
+      "face": "f10",
+      "new_block": "Reaction Steering Block",
+      "note": "Extra attitude wheel +X on lower tank (slew authority for the 90 deg pitch-over)."
+    },
+    "result": "Operation result:\n  Added Build ID 28: Reaction Steering Block.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 28\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 28: Reaction Steering Block\n    Attachment: from Build ID 3, face f10 (Fuel Barrel Big) at [ 1.5, 0. ,-4. ]\n    Position (build [East, North, Up]): [ 1.75, 0.  ,-4.  ]\n    Facing (build compass): <East with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Extra attitude wheel +X on lower tank (slew authority for the 90 deg pitch-over).\n  Description (build):\n    Reaction-wheel control axis aligns with <East with -0.0\u00b0 pitch>. Positive spin: Rolling towards <North with 0.0\u00b0 pitch> with 0\u00b0 camber Opposite spin: Rolling towards <South with -0.0\u00b0 pitch> with -0\u00b0 camber"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 3,
+      "face": "f13",
+      "new_block": "Reaction Steering Block",
+      "note": "Extra attitude wheel -X on lower tank."
+    },
+    "result": "Operation result:\n  Added Build ID 29: Reaction Steering Block.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 29\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 29: Reaction Steering Block\n    Attachment: from Build ID 3, face f13 (Fuel Barrel Big) at [-1.5, 0. ,-4. ]\n    Position (build [East, North, Up]): [-1.75, 0.  ,-4.  ]\n    Facing (build compass): <West with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Extra attitude wheel -X on lower tank.\n  Description (build):\n    Reaction-wheel control axis aligns with <West with -0.0\u00b0 pitch>. Positive spin: Rolling towards <South with 0.0\u00b0 pitch> with 0\u00b0 camber Opposite spin: Rolling towards <North with 0.0\u00b0 pitch> with -0\u00b0 camber"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 3,
+      "face": "f16",
+      "new_block": "Reaction Steering Block",
+      "note": "Extra attitude wheel +Z on lower tank."
+    },
+    "result": "Operation result:\n  Added Build ID 30: Reaction Steering Block.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 30\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 30: Reaction Steering Block\n    Attachment: from Build ID 3, face f16 (Fuel Barrel Big) at [ 0. , 1.5,-4. ]\n    Position (build [East, North, Up]): [ 0.  , 1.75,-4.  ]\n    Facing (build compass): <North with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Extra attitude wheel +Z on lower tank.\n  Description (build):\n    Reaction-wheel control axis aligns with <North with 0.0\u00b0 pitch>. Positive spin: Rolling towards <West with 0.0\u00b0 pitch> with 0\u00b0 camber Opposite spin: Rolling towards <East with 0.0\u00b0 pitch> with 0\u00b0 camber"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 3,
+      "face": "f19",
+      "new_block": "Reaction Steering Block",
+      "note": "Extra attitude wheel -Z on lower tank."
+    },
+    "result": "Operation result:\n  Added Build ID 31: Reaction Steering Block.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 31\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 31: Reaction Steering Block\n    Attachment: from Build ID 3, face f19 (Fuel Barrel Big) at [ 0. ,-1.5,-4. ]\n    Position (build [East, North, Up]): [ 0.  ,-1.75,-4.  ]\n    Facing (build compass): <South with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Extra attitude wheel -Z on lower tank.\n  Description (build):\n    Reaction-wheel control axis aligns with <South with -0.0\u00b0 pitch>. Positive spin: Rolling towards <East with 0.0\u00b0 pitch> with 0\u00b0 camber Opposite spin: Rolling towards <West with -0.0\u00b0 pitch> with -0\u00b0 camber"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 1,
+      "face": "f4",
+      "new_block": "Grid Fin",
+      "note": "Aero stabiliser fin 3/4 at the top. North."
+    },
+    "result": "Operation result:\n  Added Build ID 32: Grid Fin.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 32\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 32: Grid Fin\n    Attachment: from Build ID 1, face f4 (Starting Block) at [0. ,0.5,0. ]\n    Position (build [East, North, Up]): [0.  ,1.25,0.  ]\n    Facing (build compass): <North with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Aero stabiliser fin 3/4 at the top. North.\n  Description (build):\n    Grid-fin airflow-facing side faces toward <straight up>. The long direction of the fin surface runs toward <North with 0.0\u00b0 pitch>."
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 1,
+      "face": "f5",
+      "new_block": "Grid Fin",
+      "note": "Aero stabiliser fin 4/4 at the top. South."
+    },
+    "result": "Operation result:\n  Added Build ID 33: Grid Fin.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 33\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 33: Grid Fin\n    Attachment: from Build ID 1, face f5 (Starting Block) at [ 0. ,-0.5, 0. ]\n    Position (build [East, North, Up]): [ 0.  ,-1.25, 0.  ]\n    Facing (build compass): <South with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Aero stabiliser fin 4/4 at the top. South.\n  Description (build):\n    Grid-fin airflow-facing side faces toward <straight down>. The long direction of the fin surface runs toward <South with 0.0\u00b0 pitch>."
+  },
+  {
+    "op": "remove_block",
+    "params": {
+      "block_id": 32
+    },
+    "result": "Operation result:\n  You have successfully removed <ID 32: Grid Fin>."
+  },
+  {
+    "op": "remove_block",
+    "params": {
+      "block_id": 33
+    },
+    "result": "Operation result:\n  You have successfully removed <ID 33: Grid Fin>."
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f16",
+      "new_block": "Grid Fin",
+      "note": "Aero stabiliser fin 3/4 above the CG. North."
+    },
+    "result": "Operation result:\n  Added Build ID 34: Grid Fin.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 32\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 34: Grid Fin\n    Attachment: from Build ID 2, face f16 (Fuel Barrel Big) at [ 0. , 1.5,-1. ]\n    Position (build [East, North, Up]): [ 0.  , 2.25,-1.  ]\n    Facing (build compass): <North with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Aero stabiliser fin 3/4 above the CG. North.\n  Description (build):\n    Grid-fin airflow-facing side faces toward <straight up>. The long direction of the fin surface runs toward <North with 0.0\u00b0 pitch>."
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f19",
+      "new_block": "Grid Fin",
+      "note": "Aero stabiliser fin 4/4 above the CG. South."
+    },
+    "result": "Operation result:\n  Added Build ID 35: Grid Fin.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 33\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 35: Grid Fin\n    Attachment: from Build ID 2, face f19 (Fuel Barrel Big) at [ 0. ,-1.5,-1. ]\n    Position (build [East, North, Up]): [ 0.  ,-2.25,-1.  ]\n    Facing (build compass): <South with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Aero stabiliser fin 4/4 above the CG. South.\n  Description (build):\n    Grid-fin airflow-facing side faces toward <straight down>. The long direction of the fin surface runs toward <South with -0.0\u00b0 pitch>."
+  },
+  {
+    "op": "remove_block",
+    "params": {
+      "block_id": 34
+    },
+    "result": "Operation result:\n  You have successfully removed <ID 34: Grid Fin>."
+  },
+  {
+    "op": "remove_block",
+    "params": {
+      "block_id": 35
+    },
+    "result": "Operation result:\n  You have successfully removed <ID 35: Grid Fin>."
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f18",
+      "new_block": "Grid Fin",
+      "note": "Aero stabiliser fin 3/4. North."
+    },
+    "result": "Operation result:\n  Added Build ID 36: Grid Fin.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 32\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 36: Grid Fin\n    Attachment: from Build ID 2, face f18 (Fuel Barrel Big) at [ 0. , 1.5,-3. ]\n    Position (build [East, North, Up]): [ 0.  , 2.25,-3.  ]\n    Facing (build compass): <North with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Aero stabiliser fin 3/4. North.\n  Description (build):\n    Grid-fin airflow-facing side faces toward <straight up>. The long direction of the fin surface runs toward <North with 0.0\u00b0 pitch>."
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f21",
+      "new_block": "Grid Fin",
+      "note": "Aero stabiliser fin 4/4. South."
+    },
+    "result": "Operation result:\n  Added Build ID 37: Grid Fin.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 33\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 37: Grid Fin\n    Attachment: from Build ID 2, face f21 (Fuel Barrel Big) at [ 0. ,-1.5,-3. ]\n    Position (build [East, North, Up]): [ 0.  ,-2.25,-3.  ]\n    Facing (build compass): <South with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Aero stabiliser fin 4/4. South.\n  Description (build):\n    Grid-fin airflow-facing side faces toward <straight down>. The long direction of the fin surface runs toward <South with -0.0\u00b0 pitch>."
+  },
+  {
+    "op": "remove_block",
+    "params": {
+      "block_id": 26
+    },
+    "result": "Operation result:\n  You have successfully removed <ID 26: Booster>."
+  },
+  {
+    "op": "remove_block",
+    "params": {
+      "block_id": 27
+    },
+    "result": "Operation result:\n  You have successfully removed <ID 27: Booster>."
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f8",
+      "new_block": "Booster",
+      "note": "Retro engine R1/2 (moved north to free the root's east/west faces for the 4-fin set). Thrust force is -Y body = retrograde while the nose points prograde."
+    },
+    "result": "Operation result:\n  Added Build ID 38: Booster.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 32\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 38: Booster\n    Attachment: from Build ID 2, face f8 (Fuel Barrel Big) at [ 0. , 1. ,-0.5]\n    Position (build [East, North, Up]): [0.,1.,0.]\n    Facing (build compass): <straight up>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Retro engine R1/2 (moved north to free the root's east/west faces for the 4-fin set). Thrust force is -Y body = retrograde while the nose points prograde.\n  Description (build):\n    Thrust is directed away from the mount face toward <straight up>.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [0. ,0.5,0. ], Facing towards <South with 0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [0. ,1.5,0. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [0.5,1. ,0. ], Facing towards <East with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [-0.5, 1. , 0. ], Facing towards <West with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f7",
+      "new_block": "Booster",
+      "note": "Retro engine R2/2 (moved south): balanced thrust line with R1 through the axis."
+    },
+    "result": "Operation result:\n  Added Build ID 39: Booster.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 33\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 39: Booster\n    Attachment: from Build ID 2, face f7 (Fuel Barrel Big) at [ 0. ,-1. ,-0.5]\n    Position (build [East, North, Up]): [ 0.,-1.,-0.]\n    Facing (build compass): <straight up>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Retro engine R2/2 (moved south): balanced thrust line with R1 through the axis.\n  Description (build):\n    Thrust is directed away from the mount face toward <straight up>.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 0. ,-1.5,-0. ], Facing towards <South with 0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [ 0. ,-0.5,-0. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 0.5,-1. ,-0. ], Facing towards <East with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [-0.5,-1. ,-0. ], Facing towards <West with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 1,
+      "face": "f0",
+      "new_block": "Grid Fin",
+      "note": "Aero stabiliser fin 1/4 on the root (top of the recovery stack, above the CG). East."
+    },
+    "result": "Operation result:\n  Added Build ID 40: Grid Fin.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 34\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 40: Grid Fin\n    Attachment: from Build ID 1, face f0 (Starting Block) at [0.5,0. ,0. ]\n    Position (build [East, North, Up]): [1.25,0.  ,0.  ]\n    Facing (build compass): <East with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Aero stabiliser fin 1/4 on the root (top of the recovery stack, above the CG). East.\n  Description (build):\n    Grid-fin airflow-facing side faces toward <straight up>. The long direction of the fin surface runs toward <East with 0.0\u00b0 pitch>."
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 1,
+      "face": "f1",
+      "new_block": "Grid Fin",
+      "note": "Aero stabiliser fin 2/4 on the root. West."
+    },
+    "result": "Operation result:\n  Added Build ID 41: Grid Fin.\n\nOverview:\n  Machine: loneorb_v4_261025_173942\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\STEAM\\steamapps\\common\\Besiege\\Besiege_Data\\SavedMachines\\BuildArena\\loneorb_v3_261025_172207\\loneorb_v3_261025_172207.json\n  Blocks: 35\n  Note: Root atop recovery stack: tanks below, payload above via decoupler.\n\nAffected block:\n  Build ID 41: Grid Fin\n    Attachment: from Build ID 1, face f1 (Starting Block) at [-0.5, 0. , 0. ]\n    Position (build [East, North, Up]): [-1.25, 0.  , 0.  ]\n    Facing (build compass): <West with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: Aero stabiliser fin 2/4 on the root. West.\n  Description (build):\n    Grid-fin airflow-facing side faces toward <straight up>. The long direction of the fin surface runs toward <West with 0.0\u00b0 pitch>."
+  }
+]

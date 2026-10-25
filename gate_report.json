@@ -1,0 +1,611 @@
+{
+  "schema": "buildarena.s02.gate_report.v1",
+  "generated_at": "2026-10-25T18:57:22+08:00",
+  "run_dir": "D:\\projects\\build_arena\\entry_loneorb_20261025\\runs\\C1_FULLGREEN_candidate",
+  "all_gates": "GREEN",
+  "inputs": {
+    "trajectory_csv": "D:\\projects\\build_arena\\entry_loneorb_20261025\\runs\\C1_FULLGREEN_candidate\\trajectory.csv",
+    "trajectory_rows": 13680,
+    "trajectory_header": [
+      "t",
+      "pos_x",
+      "pos_y",
+      "pos_z",
+      "vel_x",
+      "vel_y",
+      "vel_z",
+      "radius",
+      "v_rad",
+      "v_tan",
+      "speed",
+      "fuel_fraction",
+      "duty",
+      "phase",
+      "machine_integrity",
+      "alive",
+      "payload_pos_x",
+      "payload_pos_y",
+      "payload_pos_z",
+      "payload_vel_x",
+      "payload_vel_y",
+      "payload_vel_z",
+      "payload_r",
+      "payload_alt",
+      "payload_v_rad",
+      "payload_v_tan",
+      "payload_sweep_deg",
+      "payload_rmin",
+      "payload_phase",
+      "recovery_r",
+      "recovery_alt",
+      "recovery_v_rad",
+      "recovery_v_tan",
+      "recovery_pos_x",
+      "recovery_pos_y",
+      "recovery_pos_z"
+    ],
+    "telemetry_csv": "D:\\projects\\build_arena\\entry_loneorb_20261025\\runs\\C1_FULLGREEN_candidate\\telemetry.csv",
+    "control_log": "runs\\C1_FULLGREEN_candidate\\control_log.csv",
+    "control_log_time_base": {
+      "present": true,
+      "path": "runs\\C1_FULLGREEN_candidate\\control_log.csv",
+      "time_column": "sim_t",
+      "offset_s": 0.0,
+      "offset_source": "absolute_time_column",
+      "raw_t_range": [
+        4.44,
+        540.8
+      ],
+      "t_range": [
+        4.44,
+        540.8
+      ],
+      "warnings": [
+        "controller 日志在 540.80s 结束，早于遥测末帧 547.20s：其后的帧 duty/phase 将留空（G1 无动力区间可能被截断）"
+      ]
+    },
+    "postprocess_notes": "D:\\projects\\build_arena\\entry_loneorb_20261025\\runs\\C1_FULLGREEN_candidate\\postprocess_notes.json",
+    "config": "tools\\groups.json",
+    "groups": {
+      "payload_reference_guid": "529573b0-6137-4bf1-b0a4-b6f9c84f13a7",
+      "payload_guids": 5,
+      "recovery_machines": [
+        "recovery-1"
+      ]
+    }
+  },
+  "thresholds": {
+    "sweep_min_deg": 1080.0,
+    "payload_r_min": 1100.0,
+    "integrity_min": 0.9,
+    "integrity_startup_ignore_s": 1.0,
+    "integrity_baseline_offset_s": 1.0,
+    "integrity_baseline_window_s": 4.0,
+    "landing_fail": 50.0,
+    "landing_warn": 30.0,
+    "static_speed_max": 0.3,
+    "static_speed_spike_ratio": 0.02,
+    "static_speed_spike_cap": 0.6,
+    "static_effective_speed_window_s": 1.0,
+    "static_pos_std_max": 0.5,
+    "static_min_duration_s": 10.0,
+    "upright_max_deg": 30.0,
+    "duty_threshold": 0.02,
+    "sample_gap_factor": 3.0,
+    "body_axis": [
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "gates": {
+    "G1": {
+      "status": "PASS",
+      "sweep_min_deg": 1080.0,
+      "unpowered_scope": "payload",
+      "separation": {
+        "detected": true,
+        "time": 28.3199994,
+        "method": "relative_speed_jump",
+        "baseline_distance": 1.5,
+        "distance": 3.705510962481719,
+        "growth": 2.205510962481719,
+        "relative_speed": 9.225574592834311,
+        "growth_threshold": 8.0,
+        "rel_speed_threshold": 2.0,
+        "sample_sequence": null,
+        "line": 709
+      },
+      "qualifying_interval": {
+        "t_start": 28.3199994,
+        "line_start": 709,
+        "t_end": 447.67999,
+        "line_end": 11193,
+        "sweep_deg": 1080.028294952525,
+        "sweep_total_to_run_end_deg": 1319.9350581148567,
+        "frames": 10485,
+        "max_step_deg": 0.1275169644077745
+      },
+      "qualifying_payload_scope": {
+        "t_start": 28.3199994,
+        "line_start": 709,
+        "t_end": 447.67999,
+        "line_end": 11193,
+        "sweep_deg": 1080.028294952525,
+        "sweep_total_to_run_end_deg": 1319.9350581148567,
+        "frames": 10485,
+        "max_step_deg": 0.1275169644077745
+      },
+      "qualifying_all_engines_scope": {
+        "t_start": 119.279997,
+        "line_start": 2983,
+        "t_end": 538.599988,
+        "line_end": 13466,
+        "sweep_deg": 1080.05437596816,
+        "sweep_total_to_run_end_deg": 1087.7686427771732,
+        "frames": 10484,
+        "max_step_deg": 0.1275169644077745
+      },
+      "best_run": {
+        "t_start": 28.3199994,
+        "line_start": 709,
+        "t_end": 547.199988,
+        "line_end": 13681,
+        "frames": 12973,
+        "sweep_total_deg": 1319.9350581148567,
+        "max_step_deg": 0.1275169644077745,
+        "reached_1080": {
+          "t": 447.67999,
+          "line": 11193,
+          "cumulative_deg": 1080.028294952525,
+          "index": 10484
+        },
+        "t_end_at_1080": 447.67999,
+        "line_at_1080": 11193,
+        "frames_to_1080": 10484
+      },
+      "best_run_all_engines": {
+        "t_start": 119.279997,
+        "line_start": 2983,
+        "t_end": 541.799988,
+        "line_end": 13546,
+        "frames": 10564,
+        "sweep_total_deg": 1087.7686427771732,
+        "max_step_deg": 0.1275169644077745,
+        "reached_1080": {
+          "t": 538.599988,
+          "line": 13466,
+          "cumulative_deg": 1080.05437596816,
+          "index": 10483
+        },
+        "t_end_at_1080": 538.599988,
+        "line_at_1080": 13466,
+        "frames_to_1080": 10483
+      },
+      "runs_payload_scope": 1,
+      "runs_all_engines_scope": 7,
+      "duty_segments": [
+        {
+          "t_start": 5.03999989,
+          "t_end": 10.6399998,
+          "duration": 5.59999991
+        },
+        {
+          "t_start": 25.9599994,
+          "t_end": 27.5199994,
+          "duration": 1.5599999999999987
+        },
+        {
+          "t_start": 28.0399994,
+          "t_end": 30.2799993,
+          "duration": 2.239999900000001
+        },
+        {
+          "t_start": 37.3199992,
+          "t_end": 97.3999978,
+          "duration": 60.079998599999996
+        },
+        {
+          "t_start": 108.399998,
+          "t_end": 110.279998,
+          "duration": 1.8800000000000097
+        },
+        {
+          "t_start": 110.799998,
+          "t_end": 119.239997,
+          "duration": 8.439999
+        }
+      ],
+      "unpowered_source": "control_log",
+      "conservative": false,
+      "warnings": [],
+      "evidence": [
+        {
+          "source": "trajectory.csv",
+          "line": 709,
+          "t": 28.319999,
+          "note": "分离事件"
+        },
+        {
+          "source": "trajectory.csv",
+          "line": 709,
+          "t": 28.319999,
+          "note": "qualifying 区间起点"
+        },
+        {
+          "source": "trajectory.csv",
+          "line": 11193,
+          "t": 447.67999,
+          "cumulative_deg": 1080.028294952525,
+          "note": "累计达到 1080° 的帧（区间 t_end）"
+        },
+        {
+          "source": "trajectory.csv",
+          "line": 13681,
+          "t": 547.199988,
+          "cumulative_deg": 1319.9350581148567,
+          "note": "同一无动力区间末的总扫角（1080° 后继续累计）"
+        },
+        {
+          "source": "trajectory.csv",
+          "line": 13466,
+          "t": 538.599988,
+          "note": "『全机无推进』严格口径也成立（附参考）"
+        }
+      ],
+      "structural_checks": {
+        "propulsion_channels": [],
+        "fire_samples": 0,
+        "fuel_blocks": [],
+        "checked": true,
+        "ok": true
+      },
+      "require_strict_scope": true,
+      "summary": "载荷实测扫角 1080.03° ≥ 1080°，区间 [28.320s, 447.680s]（419.36s, 10485 帧）（载荷无动力结构+fire 实测证据通过）"
+    },
+    "G2": {
+      "status": "PASS",
+      "payload_r_min_required": 1100.0,
+      "min_r": 1444.4696971456394,
+      "violations": [],
+      "samples": 10485,
+      "warnings": [],
+      "evidence": [
+        {
+          "source": "trajectory.csv",
+          "line": 4003,
+          "t": 160.079996,
+          "payload_r": 1444.4696971456394,
+          "note": "区间内载荷最小中心距"
+        }
+      ],
+      "min_r_t": 160.079996,
+      "min_r_line": 4003,
+      "violation_count": 0,
+      "summary": "qualifying 区间 [28.320s, 447.680s] 内 10485 个实测点载荷中心距最小 1444.470（要求 > 1100）"
+    },
+    "G3": {
+      "status": "PASS",
+      "threshold": 0.9,
+      "integrity_source": "telemetry.machine_integrity",
+      "baseline": {
+        "kind": "post_separation",
+        "value": 0.828571439,
+        "window": [
+          29.319999366998672,
+          33.31999936699867
+        ],
+        "window_samples": 100,
+        "pre_separation_median": 1.0,
+        "separation_drop": 0.17142856100000003,
+        "startup_ignored_s": 1.0,
+        "total_initial_blocks": 35,
+        "baseline_attached_blocks_est": 29,
+        "note": "MOD machine_integrity 按原始整机块数计；计划分离会让它掉到『分离后留机块数/初始块数』，故以分离后稳定窗口为申报基线做比值校正。"
+      },
+      "machines": [
+        {
+          "name": "recovery-1",
+          "tracking_reference_guid": "79e9e9e0-38ea-4edd-b1db-0ad26160bd86",
+          "declared_blocks": 30,
+          "alive_fraction_min": 1.0,
+          "alive_fraction_final": 1.0,
+          "alive_fraction_min_time": 0.03999999910593033,
+          "machine_integrity_raw_min": 0.828571439,
+          "machine_integrity_baseline": 0.828571439,
+          "machine_integrity_corrected_min": 1.0,
+          "machine_integrity_corrected_final": 1.0,
+          "machine_integrity_corrected_min_time": 33.359999254345894,
+          "integrity_attribution": "machine_integrity_corrected_by_declared_baseline",
+          "alive_ok": true,
+          "integrity_ok": true,
+          "status": "PASS"
+        }
+      ],
+      "payload": {
+        "declared": 5,
+        "alive_fraction_min": 1.0,
+        "alive_fraction_final": 1.0
+      },
+      "warnings": [],
+      "evidence": [
+        {
+          "source": "telemetry.csv",
+          "line": 2,
+          "t": 0.04,
+          "sample_sequence": null,
+          "note": "recovery-1 申报块存续率最低帧",
+          "alive_fraction": 1.0
+        },
+        {
+          "source": "telemetry.csv",
+          "line": 29157,
+          "t": 33.359999,
+          "sample_sequence": null,
+          "note": "recovery-1 完整度最低帧（相对申报基线 0.8286）",
+          "corrected_integrity": 1.0
+        },
+        {
+          "source": "telemetry.csv",
+          "line": 25657,
+          "t": 29.359999,
+          "sample_sequence": null,
+          "note": "完整度申报基线窗口起点（29.32s–33.32s，median=0.8286）"
+        }
+      ],
+      "summary": "每台回收机完整度 ≥ 0.90；recovery-1: 存续率 min=1.000, 完整度(校正) min=1.000 final=1.000(基线 0.829)(machine_integrity_corrected_by_declared_baseline)"
+    },
+    "G4": {
+      "status": "PASS",
+      "thresholds": {
+        "landing_fail": 50.0,
+        "landing_warn": 30.0,
+        "static_speed_max": 0.3,
+        "static_pos_std_max": 0.5,
+        "static_min_duration_s": 10.0,
+        "upright_max_deg": 30.0
+      },
+      "launch_target": [
+        0.0,
+        8.605,
+        0.0
+      ],
+      "launch_target_source": "first_frame_recovery_reference",
+      "last_powered_t": 119.239997,
+      "static_search_start": 119.239997,
+      "machines": [
+        {
+          "machine": "recovery-1",
+          "tracking_reference_guid": "79e9e9e0-38ea-4edd-b1db-0ad26160bd86",
+          "static": {
+            "t_start": 119.239997,
+            "t_end": 547.199988,
+            "duration": 427.95999099999995,
+            "mean_pos": [
+              -0.8701382429436448,
+              7.898663031869159,
+              23.367285289700934
+            ],
+            "last_pos": [
+              -0.6916983,
+              7.89453,
+              23.4154549
+            ],
+            "pos_std": 0.12528502879847644,
+            "max_speed": 7.76335864,
+            "speed_violations": 3380,
+            "speed_violation_ratio": 0.31588785046728973,
+            "effective_speed_median": 0.023279251476681043,
+            "effective_speed_p95": 0.052667147123117486,
+            "effective_speed_max": 2.5095969145549755,
+            "effective_speed_window_s": 1.0,
+            "n": 10700,
+            "line_start": 2982,
+            "line_end": 13681
+          },
+          "duration_ok": true,
+          "arc_error": 23.11001258081824,
+          "arc_error_mean": 23.06827682263529,
+          "final_position": [
+            -0.6916983,
+            7.89453,
+            23.4154549
+          ],
+          "static_mean_position": [
+            -0.8701382429436448,
+            7.898663031869159,
+            23.367285289700934
+          ],
+          "landing_warn": false,
+          "tilt": {
+            "tilt_deg": 0.015157514854329068,
+            "upright": true,
+            "sample_sequence": 13679,
+            "telemetry_line": 478767,
+            "t": 547.1999877691269,
+            "reason": null
+          },
+          "status": "PASS",
+          "reasons": []
+        }
+      ],
+      "warnings": [],
+      "evidence": [
+        {
+          "source": "trajectory.csv",
+          "line_start": 2982,
+          "line_end": 13681,
+          "t_start": 119.239997,
+          "t_end": 547.199988,
+          "note": "recovery-1 静止窗（speed<0.3, 位置标准差 0.1253；落点取静止窗末帧位置）",
+          "pos_std": 0.12528502879847644,
+          "final_position": [
+            -0.6916983,
+            7.89453,
+            23.4154549
+          ]
+        },
+        {
+          "source": "telemetry.csv",
+          "line": 478767,
+          "t": 547.199988,
+          "sample_sequence": null,
+          "note": "recovery-1 直立判定帧（tilt=0.02°）"
+        }
+      ],
+      "summary": "recovery-1: 偏差=23.11（球面弧长，OK）, 静止=428.0s, 最终位置=(-0.69, 7.89, 23.42), 倾角=0.0°"
+    },
+    "G5": {
+      "status": "PASS",
+      "threshold_reference": 0.9,
+      "autonomy_ok": true,
+      "artifacts_ok": true,
+      "run_id_consistency": {
+        "sources": {
+          "summary.json": "ac9fabd7-0f79-4188-8a0f-a25f501eba15",
+          "input_manifest.json": "ac9fabd7-0f79-4188-8a0f-a25f501eba15",
+          "telemetry_manifest.json": "ac9fabd7-0f79-4188-8a0f-a25f501eba15",
+          "control_bindings.json": "ac9fabd7-0f79-4188-8a0f-a25f501eba15"
+        },
+        "distinct": [
+          "ac9fabd7-0f79-4188-8a0f-a25f501eba15"
+        ],
+        "consistent": true
+      },
+      "telemetry_profile_full": true,
+      "required_artifacts": {
+        "telemetry.csv": true,
+        "trajectory.csv": true,
+        "control_bindings.json": true,
+        "summary.json": true,
+        "input_manifest.json": true,
+        "*_prepared.bsg": true
+      },
+      "prepared_bsg": [
+        "runs\\C1_FULLGREEN_candidate\\loneorb_v4_261025_173942_prepared.bsg"
+      ],
+      "key_events": {
+        "path": "runs\\C1_FULLGREEN_candidate\\key_events.csv",
+        "count": 0,
+        "disallowed_count": 0,
+        "first": [],
+        "allowed_controller_keys": []
+      },
+      "hash_manifest": {
+        "files": {
+          "runs\\C1_FULLGREEN_candidate\\trajectory.csv": {
+            "sha256": "ca3c3c68f32f788f514aa6a2061a0e62c0fecc4e30e979cd920f981cf80b984c",
+            "size": 5204335
+          },
+          "runs\\C1_FULLGREEN_candidate\\telemetry.csv": {
+            "sha256": "833e802fde14d58a15514872380213aa550ba4ea8b8c7572d2d92fcb3f845319",
+            "size": 123899101
+          },
+          "runs\\C1_FULLGREEN_candidate\\key_events.csv": {
+            "sha256": "9f1996f9f65616817a8390ebbe6ba4052bd8450a22333b4ae2098098fc36d108",
+            "size": 42
+          },
+          "runs\\C1_FULLGREEN_candidate\\control_log.csv": {
+            "sha256": "881bb69e028d8b53c31e537ddb65a528aaf7ca758261d7d6bad314925df90fbf",
+            "size": 1160957
+          },
+          "runs\\C1_FULLGREEN_candidate\\control_bindings.json": {
+            "sha256": "e6086003ba20bbb1e6ca1246ad087896839482a2a77642f446dc22e1e782d1e0",
+            "size": 5951
+          },
+          "runs\\C1_FULLGREEN_candidate\\summary.json": {
+            "sha256": "eed2d2d7886ac923c2d8af2c4266a5cfe181faaa62ef07ac315860751bd131f6",
+            "size": 315
+          },
+          "runs\\C1_FULLGREEN_candidate\\input_manifest.json": {
+            "sha256": "3f51c9c80226b41a6630d6bbb754fc0ae0659b69acf0efd47ab416f66a3c04e7",
+            "size": 1157
+          },
+          "runs\\C1_FULLGREEN_candidate\\telemetry_manifest.json": {
+            "sha256": "9b5a40d5e5c3ea0b26f7b86e35b637134230ffbf8b7bd35ef2b8cdea7daeccfa",
+            "size": 9338
+          },
+          "runs\\C1_FULLGREEN_candidate\\controller_snapshot.py": {
+            "sha256": "faae418c28958ac168fe98d75cd3ed35301abafbf0e1219721519c720d519217",
+            "size": 42125
+          },
+          "tools\\groups.json": {
+            "sha256": "556c6e4c3aa9813f762ef19df9c333da819b51f3e5ae809eae0d67d4a1f3a34b",
+            "size": 2744
+          },
+          "runs\\C1_FULLGREEN_candidate\\loneorb_v4_261025_173942_prepared.bsg": {
+            "sha256": "c10902c5bf60a5e385c8e29c2f97e47d9d7cd11081056f9643f2143946d54219",
+            "size": 14393
+          },
+          "D:\\projects\\build_arena\\entry_loneorb_20261025\\control\\mission_controller.py": {
+            "sha256": "faae418c28958ac168fe98d75cd3ed35301abafbf0e1219721519c720d519217",
+            "size": 42125
+          }
+        },
+        "declared": {
+          "input_manifest.run_id": "ac9fabd7-0f79-4188-8a0f-a25f501eba15",
+          "input_manifest.machine_sha256": "cfb8ac412c279c507da651d5b08b1ab92051956d6f4833d9bf0c77c8a9e52475",
+          "input_manifest.source_sha256": "fe8e287e43bf4e8d5b2eef6956ed3670b2d5897412371da7d3a54cb42f3f019d",
+          "input_manifest.controller_kind": "live",
+          "input_manifest.sandbox": "LONE ORB",
+          "input_manifest.telemetry.profile": "full",
+          "input_manifest.telemetry.target_fields": [
+            "position",
+            "rotation",
+            "velocity",
+            "angular_velocity",
+            "fuel",
+            "fire",
+            "steam",
+            "ice",
+            "health",
+            "buoyancy"
+          ],
+          "input_manifest.recorder": {
+            "enabled": true,
+            "hz": 25.0,
+            "profile": "full",
+            "targets": "all_machine_blocks"
+          }
+        },
+        "missing": [
+          "D:\\projects\\build_arena\\entry_loneorb_20261025\\runs\\C1\\loneorb_v4_261025_173942_prepared.bsg"
+        ]
+      },
+      "warnings": [],
+      "evidence": [
+        {
+          "source": "key_events.csv",
+          "note": "按键事件 0 条（人工输入证据）"
+        },
+        {
+          "source": "input_manifest.json",
+          "note": "申报哈希: {\"input_manifest.run_id\": \"ac9fabd7-0f79-4188-8a0f-a25f501eba15\", \"input_manifest.machine_sha256\": \"cfb8ac412c279c507da651d5b08b1ab92051956d6f4833d9bf0c77c8a9e52475\", \"input_manifest.source_sha256\": \"fe8e287e43bf4e8d5b2eef6956ed3670b2d5897412371da7d3a54cb42f3f019d\", \"input_manifest.controller_kind\": \"live\", \"input_manifest.sandbox\": \"LONE ORB\", \"input_manifest.telemetry.profile\": \"full\", \"input_ma"
+        }
+      ],
+      "reasons": [],
+      "summary": "无人工按键事件（0 条事件，允许键 无）；产物齐全（6/6）；run_id 一致 ['ac9fabd7-0f79-4188-8a0f-a25f501eba15']；sha256 清单 12 个文件"
+    }
+  },
+  "warnings": [
+    "controller 日志在 540.80s 结束，早于遥测末帧 547.20s：其后的帧 duty/phase 将留空（G1 无动力区间可能被截断）"
+  ],
+  "limitations": [
+    "扫角/中心距/着陆偏差全部由遥测实测位置计算，无插值/外推；帧间缺口会被断开而不是补齐。",
+    "G1 的“无动力”有两个口径（groups.g1_unpowered_scope，默认 payload）：payload=载荷自身无动力（载荷层无推进通道/无燃料块/无 fire 实测；回收机点火不算载荷推进，符合 S02『载荷独立无动力绕星』的规则读法）；all_engines=区间内任何引擎都不得点火（严格）。两种口径的 qualifying 区间都在报告里分别给出（qualifying_payload_scope / qualifying_all_engines_scope），不会因为口径选择而隐藏严格口径结果。无 control_log 且 all_engines 口径时，duty 不可实测 → conservative=true。",
+    "G3 主判据 = MOD machine_integrity（实测语义：仍与发送字段的那台机器相连/存活的块占初始块数的比例，首秒有启动瞬态，已忽略 integrity_startup_ignore_s）。规划分离会让该值掉到『回收机块数/初始块数』——这不是损伤，因此用分离后稳定窗口（integrity_baseline_offset/window_s）作为该回收机的申报基线做比值校正；MOD 只上报单机字段，多回收机时非主机只能按申报块存续率代理并在报告中标注。假设该字段跟随 Root/Starting Block 所在机器（申报的回收机）；若 tracking reference 在另一台机器上，需人工核对完整性归属。",
+    "G4 静止判据：speed<阈值且静止窗内位置标准差<容差，持续≥10 仿真秒；落点=静止窗均值位置的球面大圆弧长。地形起伏意味着不能用固定高度门。",
+    "G4 直立：用 tracking reference 块的 rotation 四元数（Unity x,y,z,w）把 body_axis 投到世界系，与该点径向夹角<30°；rotation 缺失时该项 UNVERIFIED。",
+    "G5 key_events.csv 来自游戏侧按键记录；SDK 控制器动作不产生按键事件，因此非空即视为人工输入迹象（allowed_controller_keys 可显式豁免）。",
+    "遥测 full profile 的分量列名由 MOD 侧展开，本工具用别名/正则自适应；真实文件首次核对时以 postprocess_notes.json 的 telemetry.columns 为准。"
+  ],
+  "environment": {
+    "planet_center": [
+      0.0,
+      -600.0,
+      0.0
+    ],
+    "surface_radius": 600.0,
+    "mu": 8456800.0
+  }
+}
